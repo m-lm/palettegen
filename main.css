@@ -3,3 +3,12 @@ body {
 	font-family: "Helvetica";
 }
 
+#header {
+	font-size: 20;
+	padding: 0; 
+	margin: 10;
+}
+
+#main {
+	position: relative;
+}
