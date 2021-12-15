@@ -7,7 +7,13 @@
 	<body>
 		<div id = "main">
 			<p id = "header">palettegen</p>
-			<input type = "file" id = "img_upload" accept = "image/png, image/jpg">
+			<form onclick = "this.reset()">
+				<input type = "file" id = "img_upload" accept = "image/png, image/jpg" oninput = "generate()">
+			</form>
 		</div>
+		<div id = "picture">
+			<canvas id = "drawn"></canvas>
+		</div>
+		<script src = "app.js"></script>
 	</body>
 </html>
