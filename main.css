@@ -11,4 +11,15 @@ body {
 
 #main {
 	position: relative;
+	margin: 20;
+}
+
+#img_upload {
+}
+
+#picture {
+	border: 2px solid black;
+	width: 710px;	
+	height: 300px;
+	margin: auto;
 }
