@@ -14,12 +14,19 @@ body {
 	margin: 20;
 }
 
-#img_upload {
-}
-
 #picture {
 	border: 2px solid black;
 	width: 710px;	
 	height: 300px;
 	margin: auto;
+}
+
+.colorfield {
+	width: calc(100% / 3); 
+	height: inherit;
+	margin: auto;
+	position: relative;
+	display: inline-block;
+	transition-property: background-color;
+	transition-duration: 1s;
 }

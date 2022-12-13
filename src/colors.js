@@ -3,6 +3,9 @@ function randcolor() {
 }
 
 function setcolors() {
-    console.log("Set Color: ", `rgb(${randcolor()}, ${randcolor()}, ${randcolor()})`)
-    document.getElementById("picture").style.backgroundColor = `rgb(${randcolor()}, ${randcolor()}, ${randcolor()})`;
+    var picture = document.getElementById("picture");
+    var children = picture.children;
+    for (var i = 0; i < children.length; i++) {
+        children[i].style.backgroundColor = `rgb(${randcolor()}, ${randcolor()}, ${randcolor()})`; 
+    }
 }
