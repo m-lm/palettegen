@@ -8,10 +8,11 @@
 		<div id = "main">
 			<p id = "header">palettegen</p>
 			<input type = "file" id = "img_upload" accept = "image/png, image/jpg" oninput = "generate()">
+			<button type = "button" onclick = "setcolors()">Generate random colors</button>
 		</div>
 		<div id = "picture">
-			<canvas id = "canvas"></canvas>
 		</div>
-		<script src = "app.js"></script>
+		<script src = "src/app.js"></script>
+		<script src = "src/colors.js"></script>
 	</body>
 </html>
