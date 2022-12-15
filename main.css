@@ -7,10 +7,11 @@ body {
 
 #header {
 	display: inline-block;
-	font-size: 24;
+	font-size: 24px;
 	padding: 0; 
 	margin: 10;
-	transition: 0.5s;
+	transition: 0.3s;
+	transition-property: color;
 	transition-timing-function: ease-in-out;
 	user-select: none;
 	-moz-user-select: none;
@@ -19,9 +20,6 @@ body {
 
 #header:hover {
 	color: grey;
-	transition-property: color;
-	transition-duration: 0.5s;
-	transition-timing-function: ease-in-out;
 }
 
 #main {
@@ -44,4 +42,18 @@ body {
 	display: inline-block;
 	transition-property: background-color;
 	transition-duration: 1s;
+}
+
+.colorgen {
+	background-color: white;
+	border: none;
+	padding: 6px 6px;
+	display: inline-block;
+	transition-duration: 0.6s;
+}
+
+.colorgen:hover {
+	cursor: pointer;
+	scale: 1.1;
+	transition-property: scale;
 }
