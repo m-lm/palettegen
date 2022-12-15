@@ -13,9 +13,6 @@ body {
 	transition: 0.3s;
 	transition-property: color;
 	transition-timing-function: ease-in-out;
-	user-select: none;
-	-moz-user-select: none;
-	-webkit-user-select: none;
 }
 
 #header:hover {
@@ -26,6 +23,10 @@ body {
 	position: relative;
 	margin: 10px;
 	padding: 6px;
+	border-bottom: 1px solid black;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
 }
 
 #picture {
