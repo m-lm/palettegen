@@ -12,11 +12,14 @@ body {
 	margin: 10;
 	transition: 0.5s;
 	transition-timing-function: ease-in-out;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
 }
 
 #header:hover {
-	text-shadow: 0px 12px grey;
-	transition-property: text-shadow;
+	color: grey;
+	transition-property: color;
 	transition-duration: 0.5s;
 	transition-timing-function: ease-in-out;
 }
