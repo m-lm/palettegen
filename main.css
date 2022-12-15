@@ -6,9 +6,19 @@ body {
 }
 
 #header {
-	font-size: 20;
+	display: inline-block;
+	font-size: 24;
 	padding: 0; 
 	margin: 10;
+	transition: 0.5s;
+	transition-timing-function: ease-in-out;
+}
+
+#header:hover {
+	text-shadow: 0px 12px grey;
+	transition-property: text-shadow;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in-out;
 }
 
 #main {
@@ -17,7 +27,7 @@ body {
 }
 
 #picture {
-	border: 2px solid black;
+	border: 2px solid white;
 	width: 710px;	
 	height: 300px;
 	margin: auto;

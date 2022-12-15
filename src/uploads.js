@@ -3,4 +3,3 @@ function generate() {
 	console.log(img, "type: ", typeof img);
 	console.log(img.width, "x", img.height);
 }
-
