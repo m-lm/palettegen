@@ -16,7 +16,7 @@ body {
 }
 
 #header:hover {
-	color: grey;
+	color: lightslategray; 
 }
 
 #main {
@@ -46,16 +46,17 @@ body {
 	transition-duration: 1s;
 }
 
-.colorgen {
+.menu-btn {
+	font-size: 16px;
 	background-color: white;
 	border: none;
 	padding: 6px 6px;
 	display: inline-block;
-	transition-duration: 0.6s;
+	transition-duration: 0.4s;
+	transition-property: background-color;
 }
 
-.colorgen:hover {
+.menu-btn:hover {
 	cursor: pointer;
-	scale: 1.05;
-	transition-property: scale;
+	background-color: lightgrey;
 }
